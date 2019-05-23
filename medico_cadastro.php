@@ -65,19 +65,19 @@ $pageActive = 'medico';
 								</div>
 								<div class="form-group col-12 col-md-6">
 									<label for="Rua">RUA</label>
-									<input type="text" name="Rua" id="Rua" class="form-control" maxlength="255" required>
+									<input type="text" name="Rua" id="Rua" class="form-control cep-logradouro" maxlength="255" required>
 								</div>
 								<div class="form-group col-12 col-md-6">
 									<label for="Numero">NÚMERO</label>
-									<input type="text" name="Numero" id="Numero" class="form-control mask-somente-numeros" maxlength="10" required>
+									<input type="text" name="Numero" id="Numero" class="form-control mask-somente-numeros cep-numero" maxlength="10" required>
 								</div>
 								<div class="form-group col-12 col-md-6">
 									<label for="Bairro">BAIRRO</label>
-									<input type="text" name="Bairro" id="Bairro" class="form-control" maxlength="50" required>
+									<input type="text" name="Bairro" id="Bairro" class="form-control cep-bairro" maxlength="50" required>
 								</div>
 								<div class="form-group col-12 col-md-6">
 									<label for="Cidade">CIDADE</label>
-									<input type="text" name="Cidade" id="Cidade" class="form-control" maxlength="50" required>
+									<input type="text" name="Cidade" id="Cidade" class="form-control cep-cidade" maxlength="50" required>
 								</div>
 								<div class="form-group col-12 col-md-6">
 									<label for="Estado">ESTADO</label>
@@ -178,6 +178,10 @@ $pageActive = 'medico';
 				});
 
 		<?php } ?>
+
+		$('#CEP').focusout(function(){
+			pesquisacep($(this).val());
+		});
 		
 	</script>
 

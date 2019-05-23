@@ -178,6 +178,10 @@ $pageActive = 'paciente';
 				});
 
 		<?php } ?>
+
+		$('#CEP').focusout(function(){
+			pesquisacep($(this).val());
+		});
 		
 	</script>
 
