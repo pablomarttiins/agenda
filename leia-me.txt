@@ -1,0 +1,3 @@
+STP_U_CobrancaBaixaManual precisa alterar a conta e categoria
+
+cron/envia_email_cobranca.php - precisa ser adicionado um cron diario para a geração das cobranças

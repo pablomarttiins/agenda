@@ -1,0 +1,55 @@
+[22-May-2019 00:10:49 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1305 PROCEDURE u942380273_sis2.STP_I_Categoria does not exist in /home/u942380273/public_html/pablo/ajax/categoria.php:29
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/categoria.php(29): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/categoria.php on line 29
+[22-May-2019 00:11:17 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/u942380273/public_html/pablo/ajax/paciente.php:38
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/paciente.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/paciente.php on line 38
+[22-May-2019 00:18:15 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in /home/u942380273/public_html/pablo/ajax/paciente.php:38
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/paciente.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/paciente.php on line 38
+[22-May-2019 00:18:54 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'UF' in 'field list' in /home/u942380273/public_html/pablo/ajax/paciente.php:37
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/paciente.php(37): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/paciente.php on line 37
+[22-May-2019 00:20:36 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Email' cannot be null in /home/u942380273/public_html/pablo/ajax/paciente.php:37
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/paciente.php(37): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/paciente.php on line 37
+[22-May-2019 00:21:54 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'Estado' cannot be null in /home/u942380273/public_html/pablo/ajax/paciente.php:37
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/paciente.php(37): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/paciente.php on line 37
+[22-May-2019 23:17:07 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE u942380273_sis2.STP_I_Medico; expected 10, got 11 in /home/u942380273/public_html/pablo/ajax/medico.php:38
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/medico.php(38): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/medico.php on line 38
+[22-May-2019 23:37:45 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE u942380273_sis2.STP_U_Medico; expected 13, got 11 in /home/u942380273/public_html/pablo/ajax/medico.php:56
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/medico.php(56): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/medico.php on line 56
+[22-May-2019 23:37:57 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1318 Incorrect number of arguments for PROCEDURE u942380273_sis2.STP_U_Medico; expected 13, got 11 in /home/u942380273/public_html/pablo/ajax/medico.php:56
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/medico.php(56): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/medico.php on line 56
+[23-May-2019 00:37:28 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u942380273_sis2`.`TB_Agendamento`, CONSTRAINT `FK_TB_Paciente` FOREIGN KEY (`IDPaciente`) REFERENCES `TB_Paciente` (`IDPaciente`)) in /home/u942380273/public_html/pablo/ajax/paciente.php:63
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/paciente.php(63): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/paciente.php on line 63
+[23-May-2019 00:37:33 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`u942380273_sis2`.`TB_Agendamento`, CONSTRAINT `FK_TB_Paciente` FOREIGN KEY (`IDPaciente`) REFERENCES `TB_Paciente` (`IDPaciente`)) in /home/u942380273/public_html/pablo/ajax/paciente.php:63
+Stack trace:
+#0 /home/u942380273/public_html/pablo/ajax/paciente.php(63): PDOStatement->execute()
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/ajax/paciente.php on line 63

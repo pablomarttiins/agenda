@@ -1,0 +1,10 @@
+[22-May-2019 00:10:50 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u942380273_sis2.tb_categoria' doesn't exist in /home/u942380273/public_html/pablo/categoria_consulta.php:59
+Stack trace:
+#0 /home/u942380273/public_html/pablo/categoria_consulta.php(59): PDO->query('\n\t\t\t\t\t\t\t\t\tSELEC...')
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/categoria_consulta.php on line 59
+[22-May-2019 00:17:41 America/Sao_Paulo] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'u942380273_sis2.tb_categoria' doesn't exist in /home/u942380273/public_html/pablo/categoria_cadastro.php:56
+Stack trace:
+#0 /home/u942380273/public_html/pablo/categoria_cadastro.php(56): PDO->query('\n\t\t\t\t\t\t\t\t\t\t\tSEL...')
+#1 {main}
+  thrown in /home/u942380273/public_html/pablo/categoria_cadastro.php on line 56
